@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : vending_top
+Version: X-2025.06-SP2
+Date   : Wed Jul 22 16:07:42 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /home/joelson.souza/joelson_vending/libs/saed32rvt_tt1p05v25c.db)
+
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+vending_top            8000              saed32rvt_tt1p05v25c
+control_unit_WIDTH8    ForQA             saed32rvt_tt1p05v25c
+credit_reg_WIDTH8      ForQA             saed32rvt_tt1p05v25c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   7.4152 uW   (93%)
+  Net Switching Power  = 544.0354 nW    (7%)
+                         ---------
+Total Dynamic Power    =   7.9592 uW  (100%)
+
+Cell Leakage Power     =  28.4709 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      6.6568            0.0000            0.0000            6.6568  (  18.27%)  i
+register           0.2635            0.1296        1.8958e+07           19.3513  (  53.12%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.4948            0.4144        9.5127e+06           10.4220  (  28.61%)
+--------------------------------------------------------------------------------------------------
+Total              7.4152 uW         0.5440 uW     2.8471e+07 pW        36.4301 uW
+1

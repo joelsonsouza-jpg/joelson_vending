@@ -1,0 +1,161 @@
+UVM_HOME=/Tools/synopsys/vcs/X-2025.06-SP2/etc/uvm
+VCS_TARGET_ARCH=amd64
+LD_LIBRARY_PATH=/Tools/synopsys/fm/X-2025.06-SP3/linux64/fm/shlib:/Tools/synopsys/fm/X-2025.06-SP3/linux64/fm/shlib/qt/lib:/Tools/synopsys/fm/X-2025.06-SP3/linux64/fm/shlib/qt:/Tools/synopsys/fm/X-2025.06-SP3/linux64/fm/shlib/export:/lib64:/usr/lib64:/Tools/synopsys/fm/X-2025.06-SP3/linux64/fm/shlib/missing:.
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+SCL_HOMEDIR=/Tools/synopsys/scl/2025.03-SP2/linux64/
+SSH_CONNECTION=177.37.144.1 41997 192.168.13.69 22
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+LANG=pt_BR.UTF-8
+HISTCONTROL=ignoredups
+HOSTNAME=srv-microeletronica3
+TX_ATPG_HOME=/Tools/synopsys/txs/X-2025.06-SP2
+OLDPWD=/home/joelson.souza/joelson_vending/fm/reports
+PRIMEWAVERELIABILITY_HOMEDIR=/Tools/synopsys/primewavereliability
+SNPSLMD_LICENSE_FILE=27020@melicense.embedded.ufcg.edu.br
+KDEDIRS=/usr
+SYN_HOMEDIR=/Tools/synopsys/syn/X-2025.06-SP2
+which_declare=declare -f
+FMSHELL=/Tools/synopsys/fm/X-2025.06-SP3/bin/fm_shell
+CUSTOM_HOMEDIR=/Tools/synopsys/customcompiler/X-2025.06-SP2-2
+XDG_SESSION_ID=64
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+USER=joelson.souza
+STARRC_HOMEDIR=/Tools/synopsys/starrc/X-2025.06-SP3
+MILK_HOME=/Tools/synopsys/mw/X-2025.06
+PRIMESIM_HOMEDIR=/Tools/synopsys/primesim/X-2025.06-SP2-3
+SAED90_PDK=/Tools/PDK/SAED90_PDK
+SELINUX_ROLE_REQUESTED=
+PWD=/home/joelson.souza/joelson_vending/fm
+FM_HOME=/Tools/synopsys/fm/X-2025.06-SP3
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HOME=/home/joelson.souza
+SSH_CLIENT=177.37.144.1 41997 22
+SELINUX_LEVEL_REQUESTED=
+XDG_DATA_DIRS=/home/joelson.souza/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+LOADEDMODULES=
+ICVALIDATOR_HOME=/Tools/synopsys/icvalidator/X-2025.06-SP2
+SSH_TTY=/dev/pts/3
+MAIL=/var/spool/mail/joelson.souza
+SYNOPSYS=/Tools/synopsys/fm/X-2025.06-SP3
+ICC2_HOME=/Tools/synopsys/icc2/X-2025.06-SP2
+SHELL=/bin/bash
+TERM=xterm
+XA_HOMEDIR=/Tools/synopsys/xa/X-2025.06-SP2
+HSPICE_HOMEDIR=/Tools/synopsys/hspice/X-2025.06-SP2-2
+LM_LICENSE_FILE=27020@melicense.embedded.ufcg.edu.br
+SELINUX_USE_CURRENT_RANGE=
+VERDI_HOME=/Tools/synopsys/verdi/X-2025.06-SP2
+SHLVL=2
+TESTMAX_HOME=/Tools/synopsys/testmax/X-2025.06-SP2
+WV_HOMEDIR=/Tools/synopsys/wv/X-2025.06-SP2
+MANPATH=:
+PRIMETIME_HOMEDIR=/Tools/synopsys/prime/X-2025.06-SP2
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+LOGNAME=joelson.souza
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1006/bus
+XDG_RUNTIME_DIR=/run/user/1006
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+SAED32_28_PDK=/Tools/PDK/SAED32_PDK
+PATH=/Tools/PDK/SAED90_PDK/scripts:/Tools/PDK/SAED32_PDK/scripts:/Tools/synopsys/scl/2025.03-SP2/linux64//bin:/Tools/synopsys/xa/X-2025.06-SP2/bin:/Tools/synopsys/wv/X-2025.06-SP2/bin:/Tools/synopsys/verdi/X-2025.06-SP2/bin:/Tools/synopsys/vcs/X-2025.06-SP2/bin:/Tools/synopsys/txs/X-2025.06-SP2:/Tools/synopsys/txs/X-2025.06-SP2/bin:/Tools/synopsys/testmax/X-2025.06-SP2/bin:/Tools/synopsys/syn/X-2025.06-SP2/bin:/Tools/synopsys/starrc/X-2025.06-SP3/bin:/Tools/synopsys/spyglass/X-2025.06-SP2/bin:/Tools/synopsys/primewavereliability/bin:/Tools/synopsys/primesim/X-2025.06-SP2-3/bin:/Tools/synopsys/prime/X-2025.06-SP2/bin:/Tools/synopsys/mw/X-2025.06/bin:/Tools/synopsys/lc/X-2025.06-SP2/bin:/Tools/synopsys/icvalidator/X-2025.06-SP2/bin:/Tools/synopsys/icc2/X-2025.06-SP2/bin:/Tools/synopsys/hspice/X-2025.06-SP2-2/hspice/bin:/Tools/synopsys/fusioncompiler/X-2025.06-SP3/bin:/Tools/synopsys/fm/X-2025.06-SP3/bin:/Tools/synopsys/customcompiler/X-2025.06-SP2-2/bin:/home/joelson.souza/.local/bin:/home/joelson.souza/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+VCS_HOME=/Tools/synopsys/vcs/X-2025.06-SP2
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+FUSION_HOMEDIR=/Tools/synopsys/fusioncompiler/X-2025.06-SP3
+SPYGLASS_HOME=/Tools/synopsys/spyglass/X-2025.06-SP2
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/Tools/synopsys/lc/X-2025.06-SP2
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/Tools/synopsys/fm/X-2025.06-SP3/linux64/fm/bin/fm_shell_exec
+GLIBCXX_FORCE_NEW=1
+GLIBCPP_FORCE_NEW=1
+FLEXLM_BORROWFILE=/home/joelson.souza/.srv-microeletronica3-borrow.txt
+FM_WORK_PATH=/home/joelson.souza/joelson_vending/fm

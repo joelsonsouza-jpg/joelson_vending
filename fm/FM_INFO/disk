@@ -1,0 +1,10 @@
+Directory = /home/joelson.souza/joelson_vending/fm
+Total     = 3725 GB
+Available = 3517 GB
+Used      = 208 GB (6%)
+
+Directory = /tmp
+Total     = 100 GB
+Available = 84 GB
+Used      = 16 GB (16%)
+

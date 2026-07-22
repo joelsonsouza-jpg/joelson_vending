@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : vending_top
+Version: X-2025.06-SP2
+Date   : Wed Jul 22 16:07:42 2026
+****************************************
+
+
+   min_delay/hold ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   u_control/change_r_reg[0]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[1]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[2]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[3]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[4]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[5]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[6]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_control/change_r_reg[7]/D
+                                0.49           0.14 f        -0.35  (VIOLATED)
+   u_credit/credit_reg[2]/D     0.49           0.15 f        -0.34  (VIOLATED)
+   u_credit/credit_reg[1]/D     0.49           0.15 f        -0.34  (VIOLATED)
+   u_control/mem_ready_q_reg/D
+                                0.49           0.15 f        -0.34  (VIOLATED)
+   u_credit/credit_reg[6]/D     0.49           0.16 f        -0.34  (VIOLATED)
+   u_credit/credit_reg[3]/D     0.49           0.16 f        -0.34  (VIOLATED)
+   u_credit/credit_reg[5]/D     0.49           0.16 f        -0.34  (VIOLATED)
+   u_credit/credit_reg[4]/D     0.49           0.16 f        -0.34  (VIOLATED)
+   u_credit/credit_reg[7]/D     0.49           0.16 f        -0.33  (VIOLATED)
+   u_credit/credit_reg[0]/D     0.49           0.16 f        -0.33  (VIOLATED)
+   u_control/state_reg[2]/D     0.48           0.20 r        -0.29  (VIOLATED)
+   u_control/state_reg[0]/D     0.49           0.21 f        -0.28  (VIOLATED)
+   u_control/state_reg[1]/D     0.49           0.21 f        -0.28  (VIOLATED)
+
+
+   max_capacitance
+
+                             Required        Actual
+   Net                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   u_control/n22               16.00          16.23          -0.23  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      1                  -0.23  
+
+1

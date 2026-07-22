@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : area
+Design : vending_top
+Version: X-2025.06-SP2
+Date   : Wed Jul 22 16:07:42 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /home/joelson.souza/joelson_vending/libs/saed32rvt_tt1p05v25c.db)
+
+Number of ports:                           85
+Number of nets:                           147
+Number of cells:                           91
+Number of combinational cells:             69
+Number of sequential cells:                20
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                       2
+
+Combinational area:                151.978112
+Buf/Inv area:                       18.298368
+Noncombinational area:             142.320642
+Macro/Black Box area:                0.000000
+Net Interconnect area:              43.108373
+
+Total cell area:                   294.298755
+Total area:                        337.407128
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -------------------
+vending_top                        294.2988    100.0    0.0000     0.0000  0.0000  vending_top
+u_control                          145.1162     49.3   59.7238    85.3924  0.0000  control_unit_WIDTH8
+u_credit                           149.1825     50.7   92.2543    56.9283  0.0000  credit_reg_WIDTH8
+--------------------------------  ---------  -------  --------  ---------  ------  -------------------
+Total                                                 151.9781   142.3206  0.0000
+
+1
