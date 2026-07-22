@@ -5,7 +5,7 @@
 # ------------------------------------------------------------
 # Carregar configuração do ambiente
 # ------------------------------------------------------------
-source synth/.synopsys_dc.setup
+source .synopsys_dc.setup
 
 # ------------------------------------------------------------
 # Ler RTL
@@ -56,7 +56,12 @@ puts "\n=================================================="
 puts "INICIANDO SÍNTESE"
 puts "=================================================="
 
-compile_ultra -no_autoungroup
+#----------------------------------------------------------
+# Gerar arquivos SVF para o Formality
+#----------------------------------------------------------
+set_svf synth/reports/default.svf
+
+#compile_ultra //-no_autoungroup
 
 # ------------------------------------------------------------
 # Relatórios pós-síntese
@@ -80,8 +85,8 @@ report_constraint -all_violators
 # ------------------------------------------------------------
 # Exportar netlist
 # ------------------------------------------------------------
-write -format verilog -hierarchy -output synth/vending_syn.v
-write -format ddc -hierarchy -output synth/vending_syn.ddc
+write -format verilog -hierarchy -output synth/vending_top_netlist.v
+write -format ddc -hierarchy -output synth/vending_top.ddc
 
 # ------------------------------------------------------------
 # Salvar sessão DC
@@ -96,6 +101,6 @@ puts "  synth/area_pos.rpt"
 puts "  synth/timing_report.rpt"
 puts "  synth/power.rpt"
 puts "  synth/violations.rpt"
-puts "  synth/vending_syn.v"
-puts "  synth/vending_syn.ddc"
+puts "  synth/vending_top_netlist.v"
+puts "  synth/vending_top.ddc"
 puts "=================================================="
