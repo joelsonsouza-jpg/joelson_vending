@@ -5,7 +5,7 @@
 # ============================================================
 
 # 20 ns -> 50 MHz
-create_clock -name clk -period 2 [get_ports clk]
+create_clock -name clk -period 20 [get_ports clk]
 
 # Incerteza do clock
 set_clock_uncertainty 0.5 [get_clocks clk]
@@ -28,7 +28,7 @@ set_output_delay 3 -clock clk [all_outputs]
 # Driving cell (simplificado)
 # ------------------------------------------------------------
 
-set_driving_cell -lib_cell INVX1 [all_inputs]
+set_driving_cell -lib_cell INVX1_RVT [all_inputs]
 
 # ------------------------------------------------------------
 # Load (carga típica de saída)
