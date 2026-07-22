@@ -1,6 +1,6 @@
 package vending_pkg;
 
-    parameter int WIDTH = 8;
+    parameter  WIDTH = 8;
 
     // Moedas
     localparam logic [WIDTH-1:0] COIN_0   = 0;
