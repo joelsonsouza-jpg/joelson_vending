@@ -1,5 +1,5 @@
 //-------------------------------------
-// MODULO DO COMPARADOR 
+// MODULO DO COMPARADOR
 //-------------------------------------
 import vending_pkg::*;
 
@@ -12,15 +12,5 @@ module comparator #(
 
     output logic can_sell
 );
-        
-     always @(*) begin
-        if(credit >= price  &&  stock != 8'd0) begin
-          can_sell <= 1 ; 
-        end 
-          else  begin
-          can_sell <= 0;
-
-        end
-   end
-
-endmodule 
+     assign can_sell = (credit >= price) && (stock > 8'b0);
+endmodule

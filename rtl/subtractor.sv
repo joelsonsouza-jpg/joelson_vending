@@ -5,5 +5,5 @@ module subtractor #(
     input  logic [WIDTH-1:0] price,
     output logic [WIDTH-1:0] change
 );
-    assign change = (credit >= price) ? (credit - price) : credit;
+    assign change =  (credit - price);
 endmodule

@@ -10,7 +10,7 @@ module control_unit #(
     input  logic             rst,
 
     input  logic [1:0]       coin_in,
-    input  logic [1:0]       sel_item,
+   // input  logic [1:0]       sel_item,
     input  logic             confirm,
     input  logic             cancel,
 

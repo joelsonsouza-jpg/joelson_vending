@@ -37,7 +37,7 @@
             .clk        (clk),
             .rst        (rst),
             .coin_in    (coin_in),
-            .sel_item   (sel_item),
+           // .sel_item   (sel_item),
             .confirm    (confirm),
             .cancel     (cancel),
             .can_sell   (can_sell),
