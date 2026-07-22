@@ -55,10 +55,10 @@ report_timing -max_paths 10
 puts "\n=================================================="
 puts "INICIANDO SÍNTESE"
 puts "=================================================="
-
 #----------------------------------------------------------
 # Gerar arquivos SVF para o Formality
 #----------------------------------------------------------
+
 set_svf synth/reports/default.svf
 
 #compile_ultra //-no_autoungroup
