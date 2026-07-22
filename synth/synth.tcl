@@ -61,7 +61,7 @@ puts "=================================================="
 
 set_svf synth/reports/default.svf
 
-#compile_ultra //-no_autoungroup
+compile_ultra -no_autoungroup
 
 # ------------------------------------------------------------
 # Relatórios pós-síntese
