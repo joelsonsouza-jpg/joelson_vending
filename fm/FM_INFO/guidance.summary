@@ -1,9 +1,0 @@
-                                         Status
-Command                 Accepted   Rejected    Pending Unprocessed     Total
-----------------------------------------------------------------------------
-change_names        :          5          0          0          0          5
-environment         :          4          0          0          0          4
-reg_constant        :         48          0          0          0         48
-ungroup             :          3          0          0          0          3
-----------------------------------------------------------------------------
-Total               :         60          0          0          0         60
